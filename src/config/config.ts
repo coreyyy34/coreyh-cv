@@ -85,7 +85,7 @@ export const PROJECTS = [
             "IR sensor communication between two game boards",
             "Battleships game logic and multiplayer functionality",
         ],
-        date: "Feb 2025 - Jun 2025",
+        date: "Feb 2024 - Jun 2024",
     },
     {
         title: "SpringChat",
