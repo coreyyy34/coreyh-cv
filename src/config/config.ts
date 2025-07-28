@@ -118,8 +118,11 @@ export const EDUCATION = [
     {
         title: "Bachelor of Engineering (Hons)",
         location: "University of Canterbury",
-        date: "Expected April 2027",
-        key_points: ["GPA: 7.54 / 9.0 (Professional Years)"],
+        date: "2023 - Present",
+        key_points: [
+            "GPA: 7.54 / 9.0 (Professional Years)",
+            "Expected Graducation: April, 2027",
+        ],
         relevant_coursework: [
             "Software Engineering Principles",
             "Algorithms & Data Structures",

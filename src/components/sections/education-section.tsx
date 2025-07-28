@@ -14,9 +14,15 @@ export const EducationSection = () => {
                         className="border-l-2 border-slate-200 pl-4"
                     >
                         <div className="flex flex-col mb-1">
-                            <h3 className="font-semibold text-slate-800 text-sm">
-                                {education.title}
-                            </h3>
+                            <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-1">
+                                <h3 className="font-semibold text-slate-800 text-sm">
+                                    {education.title}
+                                </h3>
+                                <div className="flex items-center gap-1 text-xs text-slate-500 mt-1">
+                                    <Calendar className="w-3 h-3" />
+                                    <span>{education.date}</span>
+                                </div>
+                            </div>
                             <p className="text-slate-600 text-xs">
                                 {education.location}
                             </p>
@@ -30,10 +36,6 @@ export const EducationSection = () => {
                                     </p>
                                 ),
                             )}
-                            <div className="flex items-center gap-1 text-xs text-slate-500 mt-1">
-                                <Calendar className="w-3 h-3" />
-                                <span>Expected May 2025</span>
-                            </div>
                         </div>
                         {education.relevant_coursework && (
                             <div className="mt-2">
