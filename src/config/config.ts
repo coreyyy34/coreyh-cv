@@ -15,38 +15,29 @@ export const PERSONAL_DETAILS = {
 
 export const SKILLS = [
     {
-        label: "Programming & Development",
-        key_points: [
-            {
-                label: "Proficient in:",
-                value: "Java, Kotlin, Python, TypeScript, C",
-            },
-            {
-                label: "Web Technologies:",
-                value: "HTML, CSS, Next.js, React",
-            },
-            {
-                label: "Backend",
-                value: "SpringBoot, Flask, Node.js, Express.js, API design",
-            },
-        ],
+        label: "Proficient in:",
+        value: "Java, Kotlin, Python, TypeScript, C",
     },
     {
-        label: "Tools & Technologies",
-        key_points: [
-            {
-                label: "Methodologies:",
-                value: "Agile, debugging, algorithm design",
-            },
-            {
-                label: "Databases:",
-                value: "MariaDB, Redis",
-            },
-            {
-                label: "Cloud & Tools:",
-                value: "Git, Docker, Deployment, UNIX/Ubuntu",
-            },
-        ],
+        label: "Web Technologies:",
+        value: "HTML, CSS, Next.js, React",
+    },
+    {
+        label: "Backend",
+        value: "SpringBoot, Flask, Node.js, Express.js, API design",
+    },
+
+    {
+        label: "Methodologies:",
+        value: "Agile, debugging, algorithm design",
+    },
+    {
+        label: "Databases:",
+        value: "MariaDB, Redis",
+    },
+    {
+        label: "Cloud & Tools:",
+        value: "Git, Docker, Deployment, UNIX/Ubuntu",
     },
 ];
 
